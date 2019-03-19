@@ -1,7 +1,7 @@
 {
-  "name": "bitcoinjs-lib",
+  "name": "acmjs-lib",
   "version": "4.0.3",
-  "description": "Client-side Bitcoin JavaScript library",
+  "description": "Client-side Actinium JavaScript library",
   "main": "./src/index.js",
   "engines": {
     "node": ">=8.0.0"
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bitcoinjs-lib.git"
+    "url": "https://github.com/Actinium-project/acmjs-lib.git"
   },
   "files": [
     "src"

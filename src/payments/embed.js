@@ -3,7 +3,7 @@ const typef = require('typeforce')
 const OPS = require('bitcoin-ops')
 
 const bscript = require('../script')
-const BITCOIN_NETWORK = require('../networks').bitcoin
+const BITCOIN_NETWORK = require('../networks').actinium
 
 function stacksEqual (a, b) {
   if (a.length !== b.length) return false
