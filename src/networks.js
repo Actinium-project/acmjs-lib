@@ -3,7 +3,7 @@
 
 module.exports = {
   actinium: {
-    messagePrefix: '\x18Actinium Signed Message:\n',
+    messagePrefix: '\x19Actinium Signed Message:\n',
     bech32: 'acm',
     bip32: {
       public: 0x019da462,
@@ -14,7 +14,7 @@ module.exports = {
     wif: 0x80
   },
   regtest: {
-    messagePrefix: '\x18Actinum Signed Message:\n',
+    messagePrefix: '\x19Actinum Signed Message:\n',
     bech32: 'racm',
     bip32: {
       public: 0x043587cf,
@@ -25,7 +25,7 @@ module.exports = {
     wif: 0xef
   },
   testnet: {
-    messagePrefix: '\x18Actinium Signed Message:\n',
+    messagePrefix: '\x19Actinium Signed Message:\n',
     bech32: 'tacm',
     bip32: {
       public: 0x0436f6e1,
