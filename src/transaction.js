@@ -408,7 +408,9 @@ Transaction.prototype.getHash = function () {
 
 Transaction.prototype.getId = function () {
   // transaction hash's are displayed in reverse order
-  return this.getHash().reverse().toString('hex')
+  //return this.getHash().reverse().toString('hex')
+  var bufferReverse = require('buffer-reverse');
+  return bufferReverse(this.getHash()).toString('hex');
 }
 
 Transaction.prototype.toBuffer = function (buffer, initialOffset) {
