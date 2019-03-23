@@ -6,8 +6,8 @@ module.exports = {
     messagePrefix: '\x19Actinium Signed Message:\n',
     bech32: 'acm',
     bip32: {
-      public: 0x019da462,
-      private: 0x019d9cfe
+      public: 0x0488b21e,
+      private: 0x0488ade4
     },
     pubKeyHash: 0x35,
     scriptHash: 0x37,
